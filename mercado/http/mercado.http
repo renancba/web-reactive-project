@@ -1,0 +1,33 @@
+### salvar
+POST http://localhost:8060/mercados
+Content-Type: application/json
+
+< ./mercado2.json
+
+### listar todos
+GET http://localhost:8060/mercados
+Content-Type: application/json
+
+
+### buscar por id
+GET http://localhost:8060/mercados/643ddb5cf4f6631b1a458629
+Content-Type: application/json
+
+### Atualizar
+PUT http://localhost:8060/mercados/643ddb5cf4f6631b1a458629
+Content-Type: application/json
+
+< ./arquivoAtualizar.json
+
+### Buscar Por nomes
+GET http://localhost:8060/mercados/nomes?nome=bitcoin
+Content-Type: application/json
+
+### Deletar por id
+DELETE http://localhost:8060/mercados/643ddb5cf4f6631b1a458629
+Content-Type: application/json
+
+
+### Verificar API Dolar
+GET http://localhost:8060/mercados/moedas?moeda=usd
+Content-Type: application/json

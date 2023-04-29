@@ -1,0 +1,1 @@
+docker run --rm -i loadimpact/k6 run -e REACTIVE=true - <k6/script.js

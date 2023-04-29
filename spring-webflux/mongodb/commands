@@ -1,0 +1,6 @@
+show dbs
+use local
+show collections
+db.cliente.find()
+db.cliente.remove({})
+db.cliente.drop()

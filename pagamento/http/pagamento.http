@@ -1,0 +1,11 @@
+### salvar
+POST http://localhost:8090/pagamentos
+Content-Type: application/json
+
+< ./fred-50-leo.json
+
+### users pagamentos
+POST http://localhost:8080/users/pagamentos
+Content-Type: application/json
+
+< ./mock-comp-fred-50-leo.json
